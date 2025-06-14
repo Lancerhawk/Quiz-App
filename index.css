@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quiz-container{
+    border: 2px solid black;
+    padding: 2rem;
+    text-align: center;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.495);
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    background-color: aquamarine;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+
+}
